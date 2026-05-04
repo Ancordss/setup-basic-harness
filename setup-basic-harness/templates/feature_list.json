@@ -1,0 +1,21 @@
+{
+  "project": "{{PROJECT_NAME}}",
+  "version": "1.0.0",
+  "lastUpdated": "{{DATE}}",
+  "features": [
+    {
+      "id": "F-001",
+      "title": "Example Feature",
+      "description": "Replace this with a real planned feature.",
+      "status": "planned",
+      "priority": "medium",
+      "assignedAgent": null,
+      "relatedFiles": [],
+      "createdAt": "{{DATE}}",
+      "completedAt": null,
+      "notes": ""
+    }
+  ],
+  "statusValues": ["planned", "in-progress", "testing", "done", "cancelled"],
+  "priorityValues": ["low", "medium", "high", "critical"]
+}
