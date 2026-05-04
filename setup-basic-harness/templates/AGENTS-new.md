@@ -2,17 +2,17 @@
 
 ## Subagents
 
-The following agents form the implementation pipeline. Each has a dedicated doc in `agents/` with full instructions.
+The following agents form the implementation pipeline. Each has a dedicated doc in `{{AGENTS_DIR}}/` with full instructions.
 
-### Lead (`agents/lead.md`)
+### Lead (`{{AGENTS_DIR}}/lead.md`)
 
 Coordination and planning agent. Breaks down feature requests into tasks, assigns them to the Implementer, tracks progress via `progress/current.md` and `progress/feature_list.json`, and makes decisions when agents are blocked. The Lead does not implement or verify -- it plans, delegates, and unblocks.
 
-### Implementer (`agents/implementer.md`)
+### Implementer (`{{AGENTS_DIR}}/implementer.md`)
 
 Hands-on builder agent. Receives well-defined tasks from the Lead and produces working implementations. Hands off completed work to the Checker.
 
-### Checker (`agents/checker.md`)
+### Checker (`{{AGENTS_DIR}}/checker.md`)
 
 Verification and quality agent. Reviews every implementation before it is considered done. Checks against acceptance criteria and reports pass/fail with specific findings. Does not fix issues -- sends them back to the Implementer.
 

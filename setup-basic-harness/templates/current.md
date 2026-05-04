@@ -45,4 +45,4 @@ _No active work item._
 
 - `progress/feature_list.json` -- planned features
 - `progress/history.md` -- change log
-- `agents/` -- agent specifications
+- `{{AGENTS_DIR}}/` -- agent specifications
